@@ -1,0 +1,1002 @@
+{
+  "_meta": {
+    "source": "https://prts.wiki/w/道具一览",
+    "description": "材料的直接加工站合成配方；不递归展开下位材料。",
+    "material_count": 60
+  },
+  "materials": {
+    "代糖": {
+      "rarity": 0,
+      "color": "灰色",
+      "craftable": false,
+      "recipe": null
+    },
+    "双酮": {
+      "rarity": 0,
+      "color": "灰色",
+      "craftable": false,
+      "recipe": null
+    },
+    "异铁碎片": {
+      "rarity": 0,
+      "color": "灰色",
+      "craftable": false,
+      "recipe": null
+    },
+    "源岩": {
+      "rarity": 0,
+      "color": "灰色",
+      "craftable": false,
+      "recipe": null
+    },
+    "破损装置": {
+      "rarity": 0,
+      "color": "灰色",
+      "craftable": false,
+      "recipe": null
+    },
+    "酯原料": {
+      "rarity": 0,
+      "color": "灰色",
+      "craftable": false,
+      "recipe": null
+    },
+    "固源岩": {
+      "rarity": 1,
+      "color": "绿色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 100,
+        "morale_cost": 1,
+        "workshop_level": 1,
+        "ingredients": [
+          {
+            "name": "源岩",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "异铁": {
+      "rarity": 1,
+      "color": "绿色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 100,
+        "morale_cost": 1,
+        "workshop_level": 1,
+        "ingredients": [
+          {
+            "name": "异铁碎片",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "糖": {
+      "rarity": 1,
+      "color": "绿色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 100,
+        "morale_cost": 1,
+        "workshop_level": 1,
+        "ingredients": [
+          {
+            "name": "代糖",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "聚酸酯": {
+      "rarity": 1,
+      "color": "绿色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 100,
+        "morale_cost": 1,
+        "workshop_level": 1,
+        "ingredients": [
+          {
+            "name": "酯原料",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "装置": {
+      "rarity": 1,
+      "color": "绿色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 100,
+        "morale_cost": 1,
+        "workshop_level": 1,
+        "ingredients": [
+          {
+            "name": "破损装置",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "酮凝集": {
+      "rarity": 1,
+      "color": "绿色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 100,
+        "morale_cost": 1,
+        "workshop_level": 1,
+        "ingredients": [
+          {
+            "name": "双酮",
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    "RMA70-12": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "全新装置": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 200,
+        "morale_cost": 2,
+        "workshop_level": 2,
+        "ingredients": [
+          {
+            "name": "装置",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "凝胶": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "化合切削液": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "半自然溶剂": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "固源岩组": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 200,
+        "morale_cost": 2,
+        "workshop_level": 2,
+        "ingredients": [
+          {
+            "name": "固源岩",
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    "异铁组": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 200,
+        "morale_cost": 2,
+        "workshop_level": 2,
+        "ingredients": [
+          {
+            "name": "异铁",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "扭转醇": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "晶体元件": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "液化高能气体": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "炽合金": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "环烃聚质": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "电极单元": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "研磨石": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "类凝结核": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "糖组": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 200,
+        "morale_cost": 2,
+        "workshop_level": 2,
+        "ingredients": [
+          {
+            "name": "糖",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "聚酸酯组": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 200,
+        "morale_cost": 2,
+        "workshop_level": 2,
+        "ingredients": [
+          {
+            "name": "聚酸酯",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "褐素纤维": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "转质盐组": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "轻锰矿": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": false,
+      "recipe": null
+    },
+    "酮凝集组": {
+      "rarity": 2,
+      "color": "蓝色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 200,
+        "morale_cost": 2,
+        "workshop_level": 2,
+        "ingredients": [
+          {
+            "name": "酮凝集",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "RMA70-24": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "RMA70-12",
+            "quantity": 1
+          },
+          {
+            "name": "固源岩组",
+            "quantity": 2
+          },
+          {
+            "name": "酮凝集组",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "三水锰矿": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "轻锰矿",
+            "quantity": 2
+          },
+          {
+            "name": "聚酸酯组",
+            "quantity": 1
+          },
+          {
+            "name": "扭转醇",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "五水研磨石": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "研磨石",
+            "quantity": 1
+          },
+          {
+            "name": "异铁组",
+            "quantity": 1
+          },
+          {
+            "name": "全新装置",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "切削原液": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "化合切削液",
+            "quantity": 1
+          },
+          {
+            "name": "晶体元件",
+            "quantity": 1
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "固化纤维板": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "褐素纤维",
+            "quantity": 1
+          },
+          {
+            "name": "聚酸酯组",
+            "quantity": 2
+          },
+          {
+            "name": "固源岩组",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "异铁块": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "异铁组",
+            "quantity": 2
+          },
+          {
+            "name": "全新装置",
+            "quantity": 1
+          },
+          {
+            "name": "聚酸酯组",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "手性屈光体": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "类凝结核",
+            "quantity": 1
+          },
+          {
+            "name": "环烃聚质",
+            "quantity": 1
+          },
+          {
+            "name": "糖组",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "提纯源岩": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "固源岩组",
+            "quantity": 4
+          }
+        ]
+      }
+    },
+    "改量装置": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "全新装置",
+            "quantity": 1
+          },
+          {
+            "name": "固源岩组",
+            "quantity": 2
+          },
+          {
+            "name": "研磨石",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "晶体电路": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "晶体元件",
+            "quantity": 2
+          },
+          {
+            "name": "凝胶",
+            "quantity": 1
+          },
+          {
+            "name": "炽合金",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "液化醚吸聚体": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "酮凝集组",
+            "quantity": 1
+          },
+          {
+            "name": "类凝结核",
+            "quantity": 1
+          },
+          {
+            "name": "液化高能气体",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "炽合金块": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "全新装置",
+            "quantity": 1
+          },
+          {
+            "name": "研磨石",
+            "quantity": 1
+          },
+          {
+            "name": "炽合金",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "环烃预制体": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "环烃聚质",
+            "quantity": 1
+          },
+          {
+            "name": "褐素纤维",
+            "quantity": 1
+          },
+          {
+            "name": "转质盐组",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "白马醇": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "扭转醇",
+            "quantity": 1
+          },
+          {
+            "name": "糖组",
+            "quantity": 1
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "精炼溶剂": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "半自然溶剂",
+            "quantity": 1
+          },
+          {
+            "name": "化合切削液",
+            "quantity": 1
+          },
+          {
+            "name": "凝胶",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "糖聚块": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "糖组",
+            "quantity": 2
+          },
+          {
+            "name": "异铁组",
+            "quantity": 1
+          },
+          {
+            "name": "轻锰矿",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "聚合凝胶": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "异铁组",
+            "quantity": 1
+          },
+          {
+            "name": "凝胶",
+            "quantity": 1
+          },
+          {
+            "name": "炽合金",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "聚能动力单元": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "全新装置",
+            "quantity": 1
+          },
+          {
+            "name": "液化高能气体",
+            "quantity": 1
+          },
+          {
+            "name": "电极单元",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "聚酸酯块": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "聚酸酯组",
+            "quantity": 2
+          },
+          {
+            "name": "酮凝集组",
+            "quantity": 1
+          },
+          {
+            "name": "扭转醇",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "转质盐聚块": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "转质盐组",
+            "quantity": 1
+          },
+          {
+            "name": "半自然溶剂",
+            "quantity": 1
+          },
+          {
+            "name": "糖组",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "酮阵列": {
+      "rarity": 3,
+      "color": "紫色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 300,
+        "morale_cost": 4,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "酮凝集组",
+            "quantity": 2
+          },
+          {
+            "name": "糖组",
+            "quantity": 1
+          },
+          {
+            "name": "轻锰矿",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "D32钢": {
+      "rarity": 4,
+      "color": "金色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 400,
+        "morale_cost": 8,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "三水锰矿",
+            "quantity": 1
+          },
+          {
+            "name": "五水研磨石",
+            "quantity": 1
+          },
+          {
+            "name": "RMA70-24",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "双极纳米片": {
+      "rarity": 4,
+      "color": "金色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 400,
+        "morale_cost": 8,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "改量装置",
+            "quantity": 1
+          },
+          {
+            "name": "白马醇",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "晶体电子单元": {
+      "rarity": 4,
+      "color": "金色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 400,
+        "morale_cost": 8,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "晶体电路",
+            "quantity": 1
+          },
+          {
+            "name": "聚合凝胶",
+            "quantity": 2
+          },
+          {
+            "name": "炽合金块",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "烧结核凝晶": {
+      "rarity": 4,
+      "color": "金色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 400,
+        "morale_cost": 8,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "转质盐聚块",
+            "quantity": 1
+          },
+          {
+            "name": "切削原液",
+            "quantity": 1
+          },
+          {
+            "name": "精炼溶剂",
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    "聚合剂": {
+      "rarity": 4,
+      "color": "金色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 400,
+        "morale_cost": 8,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "提纯源岩",
+            "quantity": 1
+          },
+          {
+            "name": "异铁块",
+            "quantity": 1
+          },
+          {
+            "name": "酮阵列",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    "重相位对映体": {
+      "rarity": 4,
+      "color": "金色",
+      "craftable": true,
+      "recipe": {
+        "output_quantity": 1,
+        "lmd_cost": 400,
+        "morale_cost": 8,
+        "workshop_level": 3,
+        "ingredients": [
+          {
+            "name": "手性屈光体",
+            "quantity": 2
+          },
+          {
+            "name": "环烃预制体",
+            "quantity": 1
+          },
+          {
+            "name": "固化纤维板",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  }
+}

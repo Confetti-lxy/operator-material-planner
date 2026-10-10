@@ -1,0 +1,23 @@
+name: Weekly data audit
+
+on:
+  schedule:
+    - cron: "23 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check upstream and local data
+        run: python3 tools/audit_data.py --report data-audit-report.json
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-audit-report
+          path: data-audit-report.json

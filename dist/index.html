@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="罗德岛全干员培养材料计算器" />
+  <title>罗德岛材料计算器</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">RI</div>
+        <div><strong>培养规划</strong><span>Operator Lab</span></div>
+      </div>
+      <nav>
+        <button class="nav-item active"><span>◫</span>干员列表</button>
+      </nav>
+      <div class="sidebar-note">
+        <span class="dot"></span>
+        <div><strong>数据预览</strong><small>当前使用真实培养数据</small></div>
+      </div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <button class="mobile-menu" aria-label="打开菜单">☰</button>
+        <div class="crumb">干员 <span>/</span> 培养计算器</div>
+        <button id="themeToggle" class="icon-button" aria-label="切换主题">☾</button>
+      </header>
+
+      <div class="content">
+        <section class="hero">
+          <div>
+            <p class="eyebrow">OPERATOR MATERIAL PLANNER</p>
+            <h1>干员培养，一眼算清。</h1>
+            <p>选择干员与培养阶段，自由切换原始、紫色或蓝色材料视图。</p>
+          </div>
+          <div class="hero-stat"><strong id="operatorCount">—</strong><span>干员数据</span></div>
+        </section>
+
+        <section class="workspace">
+          <div class="operator-panel panel">
+            <div class="panel-head">
+              <div><h2>选择干员</h2><p><span id="resultCount">434</span> 名符合条件</p></div>
+              <button id="resetFilters" class="text-button" type="button">重置</button>
+            </div>
+            <label class="search"><span>⌕</span><input id="searchInput" placeholder="搜索中文名或英文代号" /></label>
+            <div class="filters" aria-label="干员筛选">
+              <label><span>职业</span><select id="professionFilter"><option value="">全部职业</option></select></label>
+              <label><span>星级</span><select id="rarityFilter"><option value="">全部星级</option></select></label>
+              <label><span>分支</span><select id="branchFilter"><option value="">全部分支</option></select></label>
+              <label><span>阵营</span><select id="factionFilter"><option value="">全部阵营</option></select></label>
+            </div>
+            <div id="operatorList" class="operator-list"></div>
+          </div>
+
+          <div class="detail-column">
+            <section class="operator-hero panel">
+              <div id="portrait" class="portrait"></div>
+              <div class="operator-copy">
+                <div class="badges"><span id="rarityBadge" class="badge gold"></span><span id="professionBadge" class="badge"></span></div>
+                <h2 id="operatorName">载入中…</h2>
+                <p id="operatorSubtitle">请选择培养阶段并设置材料展开层级</p>
+              </div>
+              <div class="global-mode">
+                <span>全部视图</span>
+                <div id="globalMode" class="mode-tabs mode-tabs-large" role="group" aria-label="全部材料展开方式">
+                  <button class="active" data-global-mode="original">原始</button>
+                  <button data-global-mode="purple">紫色</button>
+                  <button data-global-mode="blue">蓝色</button>
+                </div>
+              </div>
+            </section>
+
+            <section id="requirements" class="requirements"></section>
+
+            <section class="summary panel">
+              <div class="summary-head">
+                <div><p class="eyebrow">SELECTED TOTAL</p><h2>已选材料合计</h2></div>
+                <div class="summary-actions">
+                  <div class="mode-tabs" role="group" aria-label="汇总材料展开方式">
+                    <button class="active" data-summary-mode="original">原始</button>
+                    <button data-summary-mode="purple">紫色</button>
+                    <button data-summary-mode="blue">蓝色</button>
+                  </div>
+                  <button id="clearAll" class="ghost-button">清空选择</button>
+                </div>
+              </div>
+              <div id="summaryMaterials" class="material-grid empty-state">勾选上方阶段后，这里会自动汇总材料。</div>
+            </section>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
