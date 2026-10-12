@@ -1,0 +1,55 @@
+name: Update PRTS data
+
+on:
+  schedule:
+    - cron: "23 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: Reparse every PRTS page
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prts-data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-update.txt
+      - name: Install image dependency
+        run: python -m pip install -r requirements-update.txt
+      - name: Regenerate and validate data
+        run: python tools/update_prts_data.py ${{ inputs.full && '--full' || '' }}
+      - name: Run site data audit
+        run: python tools/audit_data.py --report data-audit-report.json
+      - name: Upload update reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-update-report
+          path: |
+            data-update-report.json
+            data-audit-report.json
+      - name: Commit changed data
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain --untracked-files=all)" ]; then
+            echo "No upstream data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/data dist/assets/operators data-update-state.json
+          git commit -m "chore(data): update from PRTS"
+          git push

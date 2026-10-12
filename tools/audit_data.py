@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -16,10 +17,18 @@ BASE = "https://raw.githubusercontent.com/fexli/ArknightsResource/master/gamedat
 PROFESSIONS = {"PIONEER", "WARRIOR", "TANK", "SNIPER", "CASTER", "MEDIC", "SUPPORT", "SPECIAL"}
 
 
-def fetch(name: str) -> dict:
-    request = urllib.request.Request(f"{BASE}/{name}", headers={"User-Agent": "operator-material-planner-audit/1.0"})
-    with urllib.request.urlopen(request, timeout=90) as response:
-        return json.load(response)
+def fetch(name: str, retries: int = 4) -> dict:
+    error: Exception | None = None
+    for attempt in range(retries):
+        try:
+            request = urllib.request.Request(f"{BASE}/{name}", headers={"User-Agent": "operator-material-planner-audit/1.0"})
+            with urllib.request.urlopen(request, timeout=120) as response:
+                return json.load(response)
+        except Exception as exc:
+            error = exc
+            if attempt + 1 < retries:
+                time.sleep(2 ** attempt)
+    raise RuntimeError(f"failed to fetch {name} after {retries} attempts: {error}")
 
 
 def main() -> int:

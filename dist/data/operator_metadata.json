@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated_at": "2026-10-10T06:22:02.053654+00:00",
+    "generated_at": "2026-10-12T07:38:53.316131+00:00",
     "operator_count": 434,
     "sources": {
       "characters": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/gamedata/excel/character_table.json",
@@ -2272,7 +2272,7 @@
       "is_alter": false,
       "is_obtainable": true,
       "sort_index": 207,
-      "has_modules": false,
+      "has_modules": true,
       "avatar": "operator_images/char_4195_radian.png",
       "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_4195_radian.png"
     },
@@ -5119,7 +5119,7 @@
       "is_alter": false,
       "is_obtainable": true,
       "sort_index": 524,
-      "has_modules": false,
+      "has_modules": true,
       "avatar": "operator_images/char_4230_mcnist.png",
       "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_4230_mcnist.png"
     },

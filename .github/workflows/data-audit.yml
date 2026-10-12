@@ -1,8 +1,6 @@
-name: Weekly data audit
+name: Data audit
 
 on:
-  schedule:
-    - cron: "23 3 * * 1"
   workflow_dispatch:
 
 permissions:

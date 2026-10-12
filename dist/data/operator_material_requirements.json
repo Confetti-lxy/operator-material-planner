@@ -1,10 +1,10 @@
 {
   "_meta": {
     "source": "https://prts.wiki/w/干员一览",
-    "exported_at": "2026-10-10",
+    "exported_at": "2026-10-12",
     "operator_count": 434,
     "allowed_material_count": 60,
-    "description": "仅保留60种普通材料的直接需求；不包含龙门币、芯片、技巧概要及模组专用道具。"
+    "description": "仅保留普通材料的直接需求；不包含龙门币、芯片、技巧概要及模组专用道具。"
   },
   "operators": {
     "12F": {
@@ -13,13 +13,13 @@
       "mastery_materials": {},
       "modules": {}
     },
-    "Castle-3": {
+    "CONFESS-47": {
       "rarity": 1,
       "elite_materials": {},
       "mastery_materials": {},
       "modules": {}
     },
-    "CONFESS-47": {
+    "Castle-3": {
       "rarity": 1,
       "elite_materials": {},
       "mastery_materials": {},
@@ -21156,7 +21156,14 @@
       "rarity": 6,
       "elite_materials": {},
       "mastery_materials": {},
-      "modules": {}
+      "modules": {
+        "SO-Α": {
+          "name": "机械师特勤证章",
+          "stage_1": [],
+          "stage_2": [],
+          "stage_3": []
+        }
+      }
     },
     "杏仁": {
       "rarity": 5,
@@ -31920,7 +31927,20 @@
       "rarity": 6,
       "elite_materials": {},
       "mastery_materials": {},
-      "modules": {}
+      "modules": {
+        "SO-Α": {
+          "name": "电弧特勤证章",
+          "stage_1": [],
+          "stage_2": [],
+          "stage_3": []
+        },
+        "SO-Β": {
+          "name": "新起点",
+          "stage_1": [],
+          "stage_2": [],
+          "stage_3": []
+        }
+      }
     },
     "白金": {
       "rarity": 5,
