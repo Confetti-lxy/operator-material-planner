@@ -2,7 +2,11 @@ name: Update PRTS data
 
 on:
   schedule:
-    - cron: "23 3 * * 1"
+    # GitHub scheduled events are best-effort, so use three off-peak Monday
+    # windows. These are 09:17, 14:41 and 20:53 in Asia/Shanghai (UTC+8).
+    - cron: "17 1 * * 1"
+    - cron: "41 6 * * 1"
+    - cron: "53 12 * * 1"
   workflow_dispatch:
     inputs:
       full:
