@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated_at": "2026-10-12T07:38:53.316131+00:00",
-    "operator_count": 434,
+    "generated_at": "2026-11-01T14:25:58.798579+00:00",
+    "operator_count": 440,
     "sources": {
       "characters": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/gamedata/excel/character_table.json",
       "patches": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/gamedata/excel/char_patch_table.json",
@@ -659,6 +659,37 @@
       "has_modules": true,
       "avatar": "operator_images/char_4131_odda.png",
       "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_4131_odda.png"
+    },
+    {
+      "id": "char_4245_alga",
+      "name": "奥尔佳",
+      "appellation": "Ольга",
+      "rarity": 5,
+      "profession_id": "WARRIOR",
+      "profession": "近卫",
+      "branch_id": "instructor",
+      "branch": "教官",
+      "position": "MELEE",
+      "tags": [
+        "输出",
+        "支援"
+      ],
+      "nation_id": "ursus",
+      "group_id": null,
+      "team_id": null,
+      "primary_faction": "乌萨斯",
+      "faction_ids": [
+        "ursus"
+      ],
+      "factions": [
+        "乌萨斯"
+      ],
+      "is_alter": false,
+      "is_obtainable": true,
+      "sort_index": 26,
+      "has_modules": true,
+      "avatar": "operator_images/char_4245_alga.png",
+      "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_4245_alga.png"
     },
     {
       "id": "char_346_aosta",
@@ -2436,6 +2467,37 @@
       "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_452_bstalk.png"
     },
     {
+      "id": "char_4244_tocka",
+      "name": "冻河",
+      "appellation": "Тоска",
+      "rarity": 6,
+      "profession_id": "SUPPORT",
+      "profession": "辅助",
+      "branch_id": "supportiveranger",
+      "branch": "游击手",
+      "position": "RANGED",
+      "tags": [
+        "支援",
+        "爆发"
+      ],
+      "nation_id": "ursus",
+      "group_id": null,
+      "team_id": null,
+      "primary_faction": "乌萨斯",
+      "faction_ids": [
+        "ursus"
+      ],
+      "factions": [
+        "乌萨斯"
+      ],
+      "is_alter": false,
+      "is_obtainable": true,
+      "sort_index": 223,
+      "has_modules": false,
+      "avatar": "operator_images/char_4244_tocka.png",
+      "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_4244_tocka.png"
+    },
+    {
       "id": "char_294_ayer",
       "name": "断崖",
       "appellation": "Ayerscarpe",
@@ -3481,6 +3543,36 @@
       "has_modules": true,
       "avatar": "operator_images/char_4114_harold.png",
       "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_4114_harold.png"
+    },
+    {
+      "id": "char_4246_dminon",
+      "name": "国度",
+      "appellation": "Территория",
+      "rarity": 6,
+      "profession_id": "SPECIAL",
+      "profession": "特种",
+      "branch_id": "stalker",
+      "branch": "伏击客",
+      "position": "MELEE",
+      "tags": [
+        "控场"
+      ],
+      "nation_id": "ursus",
+      "group_id": null,
+      "team_id": null,
+      "primary_faction": "乌萨斯",
+      "faction_ids": [
+        "ursus"
+      ],
+      "factions": [
+        "乌萨斯"
+      ],
+      "is_alter": false,
+      "is_obtainable": true,
+      "sort_index": 360,
+      "has_modules": true,
+      "avatar": "operator_images/char_4246_dminon.png",
+      "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_4246_dminon.png"
     },
     {
       "id": "char_1021_kroos2",
@@ -4994,6 +5086,37 @@
       "has_modules": true,
       "avatar": "operator_images/char_401_elysm.png",
       "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_401_elysm.png"
+    },
+    {
+      "id": "char_4169_caledo",
+      "name": "镜匠",
+      "appellation": "Caleido",
+      "rarity": 5,
+      "profession_id": "TANK",
+      "profession": "重装",
+      "branch_id": "primprotector",
+      "branch": "本源铁卫",
+      "position": "MELEE",
+      "tags": [
+        "元素",
+        "防护"
+      ],
+      "nation_id": "rhodes",
+      "group_id": null,
+      "team_id": null,
+      "primary_faction": "罗德岛",
+      "faction_ids": [
+        "rhodes"
+      ],
+      "factions": [
+        "罗德岛"
+      ],
+      "is_alter": false,
+      "is_obtainable": true,
+      "sort_index": 507,
+      "has_modules": true,
+      "avatar": "operator_images/char_4169_caledo.png",
+      "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_4169_caledo.png"
     },
     {
       "id": "char_306_leizi",
@@ -6589,7 +6712,7 @@
       "is_alter": true,
       "is_obtainable": true,
       "sort_index": 633,
-      "has_modules": false,
+      "has_modules": true,
       "avatar": "operator_images/char_1045_svash2.png",
       "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_1045_svash2.png"
     },
@@ -9934,7 +10057,7 @@
       "is_alter": false,
       "is_obtainable": true,
       "sort_index": 938,
-      "has_modules": false,
+      "has_modules": true,
       "avatar": "operator_images/char_4199_makiri.png",
       "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_4199_makiri.png"
     },
@@ -10307,6 +10430,37 @@
       "has_modules": false,
       "avatar": "operator_images/char_376_therex.png",
       "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_376_therex.png"
+    },
+    {
+      "id": "char_4247_oxi",
+      "name": "塔露拉",
+      "appellation": "Talulah",
+      "rarity": 6,
+      "profession_id": "WARRIOR",
+      "profession": "近卫",
+      "branch_id": "primguard",
+      "branch": "本源近卫",
+      "position": "MELEE",
+      "tags": [
+        "输出",
+        "生存"
+      ],
+      "nation_id": "ursus",
+      "group_id": null,
+      "team_id": null,
+      "primary_faction": "乌萨斯",
+      "faction_ids": [
+        "ursus"
+      ],
+      "factions": [
+        "乌萨斯"
+      ],
+      "is_alter": false,
+      "is_obtainable": true,
+      "sort_index": 973,
+      "has_modules": false,
+      "avatar": "operator_images/char_4247_oxi.png",
+      "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_4247_oxi.png"
     },
     {
       "id": "char_166_skfire",
@@ -11711,6 +11865,37 @@
       "has_modules": true,
       "avatar": "operator_images/char_336_folivo.png",
       "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_336_folivo.png"
+    },
+    {
+      "id": "char_4170_hdbell",
+      "name": "行铃",
+      "appellation": "Herdbells",
+      "rarity": 4,
+      "profession_id": "SPECIAL",
+      "profession": "特种",
+      "branch_id": "dispatcher",
+      "branch": "调度者",
+      "position": "MELEE",
+      "tags": [
+        "输出",
+        "位移"
+      ],
+      "nation_id": "minos",
+      "group_id": null,
+      "team_id": null,
+      "primary_faction": "米诺斯",
+      "faction_ids": [
+        "minos"
+      ],
+      "factions": [
+        "米诺斯"
+      ],
+      "is_alter": false,
+      "is_obtainable": true,
+      "sort_index": 1105,
+      "has_modules": false,
+      "avatar": "operator_images/char_4170_hdbell.png",
+      "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_4170_hdbell.png"
     },
     {
       "id": "char_4211_snhunt",
@@ -13855,6 +14040,7 @@
     "暗索": "char_236_rope",
     "安哲拉": "char_218_cuttle",
     "奥达": "char_4131_odda",
+    "奥尔佳": "char_4245_alga",
     "奥斯塔": "char_346_aosta",
     "阿斯卡纶": "char_4132_ascln",
     "阿消": "char_277_sqrrel",
@@ -13911,6 +14097,7 @@
     "地灵": "char_183_skgoat",
     "冬时": "char_4208_wintim",
     "豆苗": "char_452_bstalk",
+    "冻河": "char_4244_tocka",
     "断崖": "char_294_ayer",
     "断罪者": "char_159_peacok",
     "杜宾": "char_130_doberm",
@@ -13944,6 +14131,7 @@
     "海沫": "char_4066_highmo",
     "海霓": "char_4079_haini",
     "哈洛德": "char_4114_harold",
+    "国度": "char_4246_dminon",
     "寒芒克洛丝": "char_1021_kroos2",
     "寒檀": "char_341_sntlla",
     "号角": "char_4039_horn",
@@ -13991,6 +14179,7 @@
     "截云": "char_4078_bdhkgt",
     "极光": "char_422_aurora",
     "极境": "char_401_elysm",
+    "镜匠": "char_4169_caledo",
     "惊蛰": "char_306_leizi",
     "九色鹿": "char_4019_ncdeer",
     "酒神": "char_1042_phatm2",
@@ -14159,6 +14348,7 @@
     "特克诺": "char_4164_tecno",
     "特米米": "char_411_tomimi",
     "THRM-EX": "char_376_therex",
+    "塔露拉": "char_4247_oxi",
     "天火": "char_166_skfire",
     "天空盒": "char_4213_skybx",
     "调香师": "char_181_flower",
@@ -14203,6 +14393,7 @@
     "锡人": "char_4151_tinman",
     "休谟斯": "char_491_humus",
     "稀音": "char_336_folivo",
+    "行铃": "char_4170_hdbell",
     "雪猎": "char_4211_snhunt",
     "雪绒": "char_466_qanik",
     "雪雉": "char_383_snsant",

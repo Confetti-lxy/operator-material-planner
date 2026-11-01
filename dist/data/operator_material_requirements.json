@@ -1,8 +1,8 @@
 {
   "_meta": {
     "source": "https://prts.wiki/w/干员一览",
-    "exported_at": "2026-10-12",
-    "operator_count": 434,
+    "exported_at": "2026-11-01",
+    "operator_count": 440,
     "allowed_material_count": 60,
     "description": "仅保留普通材料的直接需求；不包含龙门币、芯片、技巧概要及模组专用道具。"
   },
@@ -4671,7 +4671,29 @@
           ]
         }
       },
-      "modules": {}
+      "modules": {
+        "CSR-X": {
+          "name": "邀约",
+          "stage_1": [
+            {
+              "name": "晶体电子单元",
+              "quantity": 2
+            }
+          ],
+          "stage_2": [
+            {
+              "name": "重相位对映体",
+              "quantity": 3
+            }
+          ],
+          "stage_3": [
+            {
+              "name": "聚合剂",
+              "quantity": 4
+            }
+          ]
+        }
+      }
     },
     "凛视": {
       "rarity": 5,
@@ -7393,6 +7415,12 @@
               "quantity": 4
             }
           ]
+        },
+        "ISW-A": {
+          "name": "号角特限证章",
+          "stage_1": [],
+          "stage_2": [],
+          "stage_3": []
         }
       }
     },
@@ -21831,7 +21859,29 @@
           ]
         }
       },
-      "modules": {}
+      "modules": {
+        "CSR-X": {
+          "name": "神明的惦念",
+          "stage_1": [
+            {
+              "name": "炽合金块",
+              "quantity": 3
+            }
+          ],
+          "stage_2": [
+            {
+              "name": "晶体电路",
+              "quantity": 4
+            }
+          ],
+          "stage_3": [
+            {
+              "name": "酮阵列",
+              "quantity": 5
+            }
+          ]
+        }
+      }
     },
     "极光": {
       "rarity": 5,
@@ -27583,6 +27633,27 @@
           "stage_3": [
             {
               "name": "重相位对映体",
+              "quantity": 4
+            }
+          ]
+        },
+        "DEC-X": {
+          "name": "远方问候",
+          "stage_1": [
+            {
+              "name": "聚合剂",
+              "quantity": 2
+            }
+          ],
+          "stage_2": [
+            {
+              "name": "烧结核凝晶",
+              "quantity": 3
+            }
+          ],
+          "stage_3": [
+            {
+              "name": "晶体电子单元",
               "quantity": 4
             }
           ]
@@ -36143,6 +36214,27 @@
           "stage_3": [
             {
               "name": "D32钢",
+              "quantity": 4
+            }
+          ]
+        },
+        "TAC-D": {
+          "name": "“缪尔赛思和朋友们”",
+          "stage_1": [
+            {
+              "name": "重相位对映体",
+              "quantity": 2
+            }
+          ],
+          "stage_2": [
+            {
+              "name": "聚合剂",
+              "quantity": 3
+            }
+          ],
+          "stage_3": [
+            {
+              "name": "烧结核凝晶",
               "quantity": 4
             }
           ]
@@ -51845,6 +51937,720 @@
           "stage_3": [
             {
               "name": "炽合金块",
+              "quantity": 5
+            }
+          ]
+        }
+      }
+    },
+    "冻河": {
+      "rarity": 6,
+      "elite_materials": {
+        "0_to_1": [
+          {
+            "name": "酮凝集",
+            "quantity": 7
+          },
+          {
+            "name": "装置",
+            "quantity": 3
+          }
+        ],
+        "1_to_2": [
+          {
+            "name": "烧结核凝晶",
+            "quantity": 4
+          },
+          {
+            "name": "炽合金块",
+            "quantity": 2
+          }
+        ]
+      },
+      "mastery_materials": {
+        "一无所有之人": {
+          "Ⅰ": [
+            {
+              "name": "手性屈光体",
+              "quantity": 4
+            },
+            {
+              "name": "酮凝集组",
+              "quantity": 7
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "聚能动力单元",
+              "quantity": 4
+            },
+            {
+              "name": "转质盐聚块",
+              "quantity": 9
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "聚合剂",
+              "quantity": 6
+            },
+            {
+              "name": "聚合凝胶",
+              "quantity": 7
+            }
+          ]
+        },
+        "意欲呼啸之心": {
+          "Ⅰ": [
+            {
+              "name": "提纯源岩",
+              "quantity": 4
+            },
+            {
+              "name": "凝胶",
+              "quantity": 8
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "炽合金块",
+              "quantity": 4
+            },
+            {
+              "name": "异铁块",
+              "quantity": 7
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "烧结核凝晶",
+              "quantity": 6
+            },
+            {
+              "name": "聚能动力单元",
+              "quantity": 2
+            }
+          ]
+        },
+        "踽踽独行之春": {
+          "Ⅰ": [
+            {
+              "name": "晶体电路",
+              "quantity": 4
+            },
+            {
+              "name": "类凝结核",
+              "quantity": 3
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "酮阵列",
+              "quantity": 4
+            },
+            {
+              "name": "液化醚吸聚体",
+              "quantity": 8
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "晶体电子单元",
+              "quantity": 6
+            },
+            {
+              "name": "炽合金块",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      "modules": {}
+    },
+    "国度": {
+      "rarity": 6,
+      "elite_materials": {
+        "0_to_1": [
+          {
+            "name": "装置",
+            "quantity": 5
+          },
+          {
+            "name": "固源岩",
+            "quantity": 7
+          }
+        ],
+        "1_to_2": [
+          {
+            "name": "晶体电子单元",
+            "quantity": 4
+          },
+          {
+            "name": "晶体电路",
+            "quantity": 2
+          }
+        ]
+      },
+      "mastery_materials": {
+        "停步": {
+          "Ⅰ": [
+            {
+              "name": "转质盐聚块",
+              "quantity": 4
+            },
+            {
+              "name": "电极单元",
+              "quantity": 7
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "环烃预制体",
+              "quantity": 4
+            },
+            {
+              "name": "固化纤维板",
+              "quantity": 8
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "重相位对映体",
+              "quantity": 6
+            },
+            {
+              "name": "酮阵列",
+              "quantity": 1
+            }
+          ]
+        },
+        "受戮": {
+          "Ⅰ": [
+            {
+              "name": "异铁块",
+              "quantity": 4
+            },
+            {
+              "name": "化合切削液",
+              "quantity": 3
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "精炼溶剂",
+              "quantity": 4
+            },
+            {
+              "name": "手性屈光体",
+              "quantity": 9
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "聚合剂",
+              "quantity": 6
+            },
+            {
+              "name": "环烃预制体",
+              "quantity": 5
+            }
+          ]
+        },
+        "无人的国度": {
+          "Ⅰ": [
+            {
+              "name": "液化醚吸聚体",
+              "quantity": 4
+            },
+            {
+              "name": "全新装置",
+              "quantity": 5
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "切削原液",
+              "quantity": 4
+            },
+            {
+              "name": "提纯源岩",
+              "quantity": 10
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "烧结核凝晶",
+              "quantity": 6
+            },
+            {
+              "name": "液化醚吸聚体",
+              "quantity": 2
+            }
+          ]
+        }
+      },
+      "modules": {
+        "AMB-X": {
+          "name": "空瓶罐们",
+          "stage_1": [
+            {
+              "name": "烧结核凝晶",
+              "quantity": 2
+            }
+          ],
+          "stage_2": [
+            {
+              "name": "晶体电子单元",
+              "quantity": 3
+            }
+          ],
+          "stage_3": [
+            {
+              "name": "重相位对映体",
+              "quantity": 4
+            }
+          ]
+        }
+      }
+    },
+    "塔露拉": {
+      "rarity": 6,
+      "elite_materials": {
+        "0_to_1": [
+          {
+            "name": "固源岩",
+            "quantity": 12
+          },
+          {
+            "name": "酮凝集",
+            "quantity": 4
+          }
+        ],
+        "1_to_2": [
+          {
+            "name": "重相位对映体",
+            "quantity": 4
+          },
+          {
+            "name": "酮阵列",
+            "quantity": 2
+          }
+        ]
+      },
+      "mastery_materials": {
+        "照霎白夜": {
+          "Ⅰ": [
+            {
+              "name": "固化纤维板",
+              "quantity": 4
+            },
+            {
+              "name": "环烃聚质",
+              "quantity": 4
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "聚合凝胶",
+              "quantity": 4
+            },
+            {
+              "name": "晶体电路",
+              "quantity": 7
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "晶体电子单元",
+              "quantity": 6
+            },
+            {
+              "name": "固化纤维板",
+              "quantity": 1
+            }
+          ]
+        },
+        "阂断骤雪": {
+          "Ⅰ": [
+            {
+              "name": "手性屈光体",
+              "quantity": 4
+            },
+            {
+              "name": "褐素纤维",
+              "quantity": 6
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "聚能动力单元",
+              "quantity": 4
+            },
+            {
+              "name": "转质盐聚块",
+              "quantity": 9
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "重相位对映体",
+              "quantity": 6
+            },
+            {
+              "name": "聚能动力单元",
+              "quantity": 1
+            }
+          ]
+        },
+        "日冕重烈": {
+          "Ⅰ": [
+            {
+              "name": "提纯源岩",
+              "quantity": 4
+            },
+            {
+              "name": "异铁组",
+              "quantity": 8
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "炽合金块",
+              "quantity": 4
+            },
+            {
+              "name": "异铁块",
+              "quantity": 7
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "聚合剂",
+              "quantity": 6
+            },
+            {
+              "name": "炽合金块",
+              "quantity": 6
+            }
+          ]
+        }
+      },
+      "modules": {}
+    },
+    "奥尔佳": {
+      "rarity": 5,
+      "elite_materials": {
+        "0_to_1": [
+          {
+            "name": "异铁",
+            "quantity": 4
+          },
+          {
+            "name": "聚酸酯",
+            "quantity": 3
+          }
+        ],
+        "1_to_2": [
+          {
+            "name": "聚能动力单元",
+            "quantity": 7
+          },
+          {
+            "name": "聚酸酯组",
+            "quantity": 18
+          }
+        ]
+      },
+      "mastery_materials": {
+        "交叉施压": {
+          "Ⅰ": [
+            {
+              "name": "酮阵列",
+              "quantity": 3
+            },
+            {
+              "name": "褐素纤维",
+              "quantity": 2
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "聚能动力单元",
+              "quantity": 3
+            },
+            {
+              "name": "转质盐聚块",
+              "quantity": 6
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "重相位对映体",
+              "quantity": 4
+            },
+            {
+              "name": "固化纤维板",
+              "quantity": 1
+            }
+          ]
+        },
+        "只为我的答案": {
+          "Ⅰ": [
+            {
+              "name": "环烃预制体",
+              "quantity": 3
+            },
+            {
+              "name": "异铁组",
+              "quantity": 2
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "炽合金块",
+              "quantity": 3
+            },
+            {
+              "name": "异铁块",
+              "quantity": 5
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "聚合剂",
+              "quantity": 4
+            },
+            {
+              "name": "手性屈光体",
+              "quantity": 4
+            }
+          ]
+        }
+      },
+      "modules": {
+        "INS-X": {
+          "name": "来自昨天",
+          "stage_1": [
+            {
+              "name": "精炼溶剂",
+              "quantity": 3
+            }
+          ],
+          "stage_2": [
+            {
+              "name": "液化醚吸聚体",
+              "quantity": 4
+            }
+          ],
+          "stage_3": [
+            {
+              "name": "切削原液",
+              "quantity": 5
+            }
+          ]
+        }
+      }
+    },
+    "行铃": {
+      "rarity": 4,
+      "elite_materials": {
+        "0_to_1": [
+          {
+            "name": "装置",
+            "quantity": 1
+          },
+          {
+            "name": "糖",
+            "quantity": 1
+          }
+        ],
+        "1_to_2": [
+          {
+            "name": "固源岩组",
+            "quantity": 20
+          },
+          {
+            "name": "凝胶",
+            "quantity": 9
+          }
+        ]
+      },
+      "mastery_materials": {
+        "花椰菜冲击": {
+          "Ⅰ": [
+            {
+              "name": "提纯源岩",
+              "quantity": 1
+            },
+            {
+              "name": "晶体元件",
+              "quantity": 5
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "炽合金块",
+              "quantity": 2
+            },
+            {
+              "name": "固化纤维板",
+              "quantity": 2
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "晶体电子单元",
+              "quantity": 2
+            },
+            {
+              "name": "手性屈光体",
+              "quantity": 1
+            }
+          ]
+        },
+        "蔬菜大拼盘": {
+          "Ⅰ": [
+            {
+              "name": "晶体电路",
+              "quantity": 1
+            },
+            {
+              "name": "酮凝集组",
+              "quantity": 3
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "酮阵列",
+              "quantity": 2
+            },
+            {
+              "name": "手性屈光体",
+              "quantity": 2
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "重相位对映体",
+              "quantity": 2
+            },
+            {
+              "name": "提纯源岩",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      "modules": {}
+    },
+    "镜匠": {
+      "rarity": 5,
+      "elite_materials": {
+        "0_to_1": [
+          {
+            "name": "聚酸酯",
+            "quantity": 4
+          },
+          {
+            "name": "糖",
+            "quantity": 3
+          }
+        ],
+        "1_to_2": [
+          {
+            "name": "手性屈光体",
+            "quantity": 8
+          },
+          {
+            "name": "炽合金",
+            "quantity": 15
+          }
+        ]
+      },
+      "mastery_materials": {
+        "无公差切割": {
+          "Ⅰ": [
+            {
+              "name": "聚能动力单元",
+              "quantity": 3
+            },
+            {
+              "name": "全新装置",
+              "quantity": 2
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "切削原液",
+              "quantity": 3
+            },
+            {
+              "name": "提纯源岩",
+              "quantity": 7
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "烧结核凝晶",
+              "quantity": 4
+            },
+            {
+              "name": "异铁块",
+              "quantity": 1
+            }
+          ]
+        },
+        "“多面镜”": {
+          "Ⅰ": [
+            {
+              "name": "炽合金块",
+              "quantity": 3
+            },
+            {
+              "name": "环烃聚质",
+              "quantity": 3
+            }
+          ],
+          "Ⅱ": [
+            {
+              "name": "聚合凝胶",
+              "quantity": 3
+            },
+            {
+              "name": "晶体电路",
+              "quantity": 5
+            }
+          ],
+          "Ⅲ": [
+            {
+              "name": "晶体电子单元",
+              "quantity": 4
+            },
+            {
+              "name": "液化醚吸聚体",
+              "quantity": 1
+            }
+          ]
+        }
+      },
+      "modules": {
+        "PRP-X": {
+          "name": "“啊哈！”",
+          "stage_1": [
+            {
+              "name": "转质盐聚块",
+              "quantity": 3
+            }
+          ],
+          "stage_2": [
+            {
+              "name": "环烃预制体",
+              "quantity": 4
+            }
+          ],
+          "stage_3": [
+            {
+              "name": "异铁块",
               "quantity": 5
             }
           ]
