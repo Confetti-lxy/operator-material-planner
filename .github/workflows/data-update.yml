@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: prts-data-update
@@ -47,8 +48,10 @@ jobs:
             data-update-report.json
             data-audit-report.json
       - name: Commit changed data
+        id: commit
         run: |
           if git diff --quiet && [ -z "$(git status --porcelain --untracked-files=all)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No upstream data changes."
             exit 0
           fi
@@ -57,3 +60,9 @@ jobs:
           git add dist/data dist/assets/operators data-update-state.json
           git commit -m "chore(data): update from PRTS"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Deploy updated site
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
