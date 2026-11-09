@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated_at": "2026-11-01T14:25:58.798579+00:00",
-    "operator_count": 440,
+    "generated_at": "2026-11-09T16:51:06.724993+00:00",
+    "operator_count": 441,
     "sources": {
       "characters": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/gamedata/excel/character_table.json",
       "patches": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/gamedata/excel/char_patch_table.json",
@@ -1234,6 +1234,33 @@
       "has_modules": true,
       "avatar": "operator_images/char_369_bena.png",
       "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_369_bena.png"
+    },
+    {
+      "id": "char_618_acrbot",
+      "name": "“暴躁铁皮”",
+      "appellation": "Rage Ironhide",
+      "rarity": 6,
+      "profession_id": "TANK",
+      "profession": "重装",
+      "branch_id": "unyield",
+      "branch": "不屈者",
+      "position": "MELEE",
+      "tags": [
+        "防护",
+        "生存"
+      ],
+      "nation_id": null,
+      "group_id": null,
+      "team_id": null,
+      "primary_faction": null,
+      "faction_ids": [],
+      "factions": [],
+      "is_alter": false,
+      "is_obtainable": false,
+      "sort_index": 63,
+      "has_modules": false,
+      "avatar": "operator_images/char_618_acrbot.png",
+      "avatar_source": "https://raw.githubusercontent.com/fexli/ArknightsResource/master/avatar/ASSISTANT/char_618_acrbot.png"
     },
     {
       "id": "char_265_sophia",
@@ -14058,6 +14085,7 @@
     "暴雨": "char_304_zebra",
     "贝洛内": "char_4037_demetr",
     "贝娜": "char_369_bena",
+    "“暴躁铁皮”": "char_618_acrbot",
     "鞭刃": "char_265_sophia",
     "冰酿": "char_4104_coldst",
     "波卜": "char_487_bobb",

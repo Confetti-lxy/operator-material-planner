@@ -1,8 +1,8 @@
 {
   "_meta": {
     "source": "https://prts.wiki/w/干员一览",
-    "exported_at": "2026-11-01",
-    "operator_count": 440,
+    "exported_at": "2026-11-09",
+    "operator_count": 441,
     "allowed_material_count": 60,
     "description": "仅保留普通材料的直接需求；不包含龙门币、芯片、技巧概要及模组专用道具。"
   },
@@ -52656,6 +52656,12 @@
           ]
         }
       }
+    },
+    "“暴躁铁皮”": {
+      "rarity": 6,
+      "elite_materials": {},
+      "mastery_materials": {},
+      "modules": {}
     }
   }
 }
